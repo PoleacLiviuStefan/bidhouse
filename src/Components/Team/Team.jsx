@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <div
       name="team"
-      className="relative flex flex-col items-center  w-full h-[140rem] lg:h-[90rem] bg-[#1c1c1c] top-[50rem]"
+      className="relative flex flex-col items-center  w-full h-[145rem] lg:h-[90rem] bg-[#1c1c1c] top-[50rem]"
     >
       <Fade delay={400} right>
         <div>
@@ -37,7 +37,14 @@ const Team = () => {
         </div>
       </Fade>
       <Fade delay={400} top>
-        <div className="relative top-[20rem] flex lg:flex-row flex-col  lg:w-[100rem]">
+        <div className="relative top-[20rem] grid grid-cols-2 lg:flex lg:flex-row   lg:w-[100rem]">
+          <TeamMembers
+            img="bg-[url('/public/avatar1.jpg')]"
+            name="Team Member Name"
+            role="Role"
+            discord=""
+            twitter=""
+          />{" "}
           <TeamMembers
             img="bg-[url('/public/avatar1.jpg')]"
             name="Team Member Name"

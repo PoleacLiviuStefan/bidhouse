@@ -111,7 +111,7 @@ Every month a member of our community will get a free NFT from our collections."
           />
         </div>
         <Slide delay={300} left>
-          <div className="relative left-4  lg:left-[22rem] top-[10rem]">
+          <div className="relative left-4  lg:left-[22rem] top-[11rem]">
             <h2 className="relative text-[#d6d6d6] left-14 top-4 font-bold text-[1.6rem]">
               THAT'S NOT ALL
             </h2>

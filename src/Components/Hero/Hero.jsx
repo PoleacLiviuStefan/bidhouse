@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div
       name="welcome"
-      className="relative bg-[url('/public/key2.gif')] bg-cover  flex   shadow: [120px 80px 40px 20px #0ff]  text-white flex-col justify-center items-center w-full h-screen "
+      className="relative bg-[url('/public/back.jpg')] lg:bg-[url('/public/key2.gif')] bg-cover  flex   shadow: [120px 80px 40px 20px #0ff]  text-white flex-col justify-center items-center w-full  h-screen "
     >
       <div className="absolute bg-black bg-opacity-50 w-full h-full" />
       <div className="absolute bottom-0 bg-gradient-to-t from-black to-transparent bg-opacity-50 w-full h-[5rem]" />
@@ -62,7 +62,7 @@ const Hero = () => {
         <div className="absolute bg-[url('/public/wave1.png')]  bg-cover animate-[wave_10s_linear_reverse_infinite] w-[200%] bottom-0 bg-opacity-50 h-full transform-[translate3d(0,0,0)] "></div>
         <div className="absolute bg-[url('/public/wave1.png')]  bg-cover w-[200%] animate-[wave_20s_linear_reverse_infinite] delay-[1000] bottom-0 bg-opacity-50 h-full transform-[translate3d(0,0,0)] "></div>
       </div>
-      <div className="absolute hidden lg:block bottom-0 bg-gradient-to-t from-[#1c1c1c] to-orange-500 h-[1rem] w-full" />
+      <div className="absolute hidden lg:block bottom-0 bg-gradient-to-t from-[#1c1c1c] to-yellow-400 h-[1rem] w-full" />
     </div>
   );
 };

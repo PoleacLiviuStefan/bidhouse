@@ -20,7 +20,7 @@ const Forms = () => {
       <div
         className={`relative flex justify-center items-center top-20 ${
           showForm
-            ? "h-[50rem]  w-[25rem]  lg:w-[45rem]"
+            ? "h-[55rem]  w-[25rem]  lg:w-[45rem]"
             : "w-[20rem] h-[15rem] lg:h-[20rem] lg:w-[30rem]"
         } bg-[rgba(255,255,255,0)] shadow-2xl rounded-xl`}
       >

@@ -2,7 +2,7 @@ import React from "react";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
 const TeamMembers = ({ img, name, role, discord, twitter }) => {
   return (
-    <div className="relative ml-4 mr-4 shadow-xl ring-2 ring-yellow-600 bg-yellow-400 rounded-2xl h-[15rem] w-[8rem] lg:h-[20rem]  lg:w-[20rem]">
+    <div className="relative lg:mt-0 mt-4 ml-4 mr-4 shadow-xl ring-2 ring-yellow-600 bg-yellow-400 rounded-2xl h-[15rem] w-[8rem] lg:h-[22rem]  lg:w-[20rem]">
       <div className="relative flex top-10 flex-col items-center">
         <div
           className={` ${img} bg-cover  rounded-[10rem] h-[4rem] w-[4rem] lg:h-[10rem]  lg:w-[10rem]`}
