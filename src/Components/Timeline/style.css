@@ -1,0 +1,123 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40rem;
+  width: 100%;
+  height: 120rem;
+  background-color: #1c1c1c;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline {
+  height: 500px;
+  width: 5px;
+  background-color: #e5e5e5;
+}
+
+.stub1 {
+  line-height: 300px;
+  font-size: 24px;
+  background-color: #eae4e4;
+}
+
+.stub2 {
+  height: 1000px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 0.4rem solid white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background-color: #323232;
+}
+
+.circleWrapper {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  min-width: 150px;
+  font-weight: bold;
+  color: white;
+}
+.startmessage {
+  color: white;
+  position: relative;
+  bottom: 12rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.ph {
+  display: flex;
+
+  width: 55rem;
+
+  justify-items: center;
+  align-items: center;
+  height: 30rem;
+  font-size: 1.8rem;
+  position: relative;
+  left: 2rem;
+  top: -4rem;
+  font-weight: bold;
+}
+.ph2 {
+  display: flex;
+
+  width: 55rem;
+
+  justify-items: center;
+  align-items: center;
+  height: 30rem;
+  font-size: 1.8rem;
+  position: relative;
+  left: -55rem;
+  top: -4rem;
+  font-weight: bold;
+}
+
+.subtext {
+  position: absolute;
+  left: 50%;
+  width: 40rem;
+  transform: translateX(-50%);
+  font-size: 1.3rem;
+  padding: 0 1rem;
+  text-align: left;
+  top: 5rem;
+  text-align: justify;
+}
+.titlephase {
+  position: absolute;
+  top: 0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.2rem;
+}
+
+.subtitlephase {
+  position: absolute;
+  top: 3.5rem;
+  left: 50%;
+  font-size: 1.6rem;
+  color: #cbcbcb;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,10 @@
+.quantity input[type="number"] {
+    width: 3rem;
+    text-align: center;
+  
+    margin: 0;
+  }
+  .quantity input::-webkit-outer-spin-button,
+  .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
