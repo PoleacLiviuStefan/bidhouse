@@ -26,7 +26,7 @@ const Succesfull = () => {
       </div>
       <div className="relative flex top-[40rem] flex-col items-center">
         <Fade delay={300} bottom>
-          <h2 className="text-2xl lg:text-6xl w-[20rem] lg:w-full font-bold">
+          <h2 className="text-center text-2xl lg:text-6xl  w-[20rem] lg:w-full font-bold">
             WHICH IS OUR
             <span className="text-yellow-400">STARTING POINT? </span>
           </h2>

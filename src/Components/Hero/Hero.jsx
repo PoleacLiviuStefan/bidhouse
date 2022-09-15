@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div
       name="welcome"
-      className="relative bg-[url('/public/back.jpg')] lg:bg-[url('/public/key2.gif')] bg-cover  flex   shadow: [120px 80px 40px 20px #0ff]  text-white flex-col justify-center items-center w-full  h-screen "
+      className="relative bg-[url('/public/keybg.gif')] lg:bg-[url('/public/key2.gif')] bg-cover  flex   shadow: [120px 80px 40px 20px #0ff]  text-white flex-col justify-center items-center w-full  h-screen "
     >
       <div className="absolute bg-black bg-opacity-50 w-full h-full" />
       <div className="absolute bottom-0 bg-gradient-to-t from-black to-transparent bg-opacity-50 w-full h-[5rem]" />

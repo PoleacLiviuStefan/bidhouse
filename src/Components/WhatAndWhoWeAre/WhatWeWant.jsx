@@ -75,7 +75,7 @@ const WhatWeWant = () => {
               </button>
               <button className="relative left-4 w-[8rem] text-left  lg:w-[16rem] h-[2rem]  rounded-xl">
                 Business Management
-                <span className="absolute left-[-.5rem] lg:left-[-.9rem] top-[.5rem] lg:top-[.3rem] shadow-xl lg:left-[19.1rem] h-[3.2rem] lg:h-[1.5rem] bg-yellow-400 w-[3px]" />
+                <span className="absolute left-[-.5rem]  top-[.5rem] lg:top-[.3rem] shadow-xl lg:left-[19.1rem] h-[3.2rem] lg:h-[1.5rem] bg-yellow-400 w-[3px]" />
               </button>
               <span className="absolute shadow-xl top-[18.7rem] lg:top-[7.6rem] left-[.3rem] lg:left-[-1rem] h-[10rem]  lg:h-[3rem] bg-yellow-400 w-[3px]" />
               <span className="relative top-12 left-4 lg:left-0 lg:top-6">

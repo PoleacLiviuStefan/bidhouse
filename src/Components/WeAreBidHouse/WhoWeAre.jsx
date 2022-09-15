@@ -131,7 +131,7 @@ Every month a member of our community will get a free NFT from our collections."
           </div>
         </Slide>
       </div>
-      <div className="grid grid-cols-2 left-10 h-[40rem] relative top-[10rem]  w-[35rem]">
+      <div className="lg:grid hidden grid-cols-2 left-10 h-[40rem] relative top-[7rem]  w-[35rem]">
         <div
           className={`relative rounded-xl animate-[changelt_10s_linear_infinite]
              
