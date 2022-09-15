@@ -56,19 +56,19 @@ font-bold"
           className="   flex
 
           lg:w-[55rem]
-         w-[15rem]
+         w-[5rem]
           justify-center
           items-center
           h-[30rem]
          text-[1.8rem]
           relative
-          left-[-30rem]
+          left-[-25rem]
          lg:left-[-55rem]
           top-[-4rem]
          font-bold"
         >
           <h2 className="titlephase">PHASE 2</h2>
-          <h3 className="subtitlephase">The crypto forest</h3>
+          <h3 className="subtitlephase ">The crypto forest</h3>
           <span className="subtext">
             <br /> Our goal is to build a place for our community. A place that
             they can call "home"

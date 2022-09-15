@@ -25,27 +25,33 @@ const FormDiscount = () => {
       >
         <input
           type="text"
-          className="mt-4 text-white border-b-[1px] border-yellow-400 outline-none placeholder:text-white bg-[rgba(255,255,255,0)] w-[25rem] mb-4"
+          className="mt-4 text-white border-b-[1px] border-yellow-400 outline-none placeholder:text-white bg-[rgba(255,255,255,0)] w-[15rem] lg:w-[25rem] mb-4"
           placeholder="Discord Account"
           required
         ></input>
         <input
-          className="mt-4 text-white border-b-[1px] border-yellow-400 outline-none  placeholder:text-white bg-[rgba(255,255,255,0)] w-[25rem] mb-4"
+          className="mt-4 text-white border-b-[1px] border-yellow-400 outline-none  placeholder:text-white bg-[rgba(255,255,255,0)]  w-[15rem] lg:w-[25rem] mb-4"
           type="text"
           placeholder="Twitter Account"
           required
         ></input>
         <select className="text-white border-b-[1px] outline-none border-yellow-400 bg-[rgba(255,255,255,0)]">
           <option
-            className="bg-[rgba(255,255,255,0)]"
+            className="bg-[rgba(255,255,255,0)] text-black"
             value="Guaranteed Whitelist"
           >
             Guaranteed Whitelist
           </option>
-          <option className="bg-[rgba(255,255,255,0)]" value="Discount 20%">
+          <option
+            className="bg-[rgba(255,255,255,0)] text-black"
+            value="Discount 20%"
+          >
             Discount 20%
           </option>
-          <option className="bg-[rgba(255,255,255,0)]" value="Pay 2 get 3">
+          <option
+            className="bg-[rgba(255,255,255,0)] text-black"
+            value="Pay 2 get 3"
+          >
             Pay 2 get 3
           </option>
         </select>
@@ -60,7 +66,7 @@ const FormDiscount = () => {
             +
           </div>
           <input
-            className="mt-4 text-xl text-center   border-b-[1px] text-white border-yellow-400 mb-4 bg-[rgba(255,255,255,0)] outline-none w-[4rem]"
+            className="mt-4 text-xl text-center   border-b-[1px] text-white border-yellow-400 mb-4 bg-[rgba(255,255,255,0)]  w-[15rem] lg:w-[25rem] outline-none w-[4rem]"
             type="number"
             value={nftNumber}
             required
@@ -73,19 +79,19 @@ const FormDiscount = () => {
           </div>
         </div>
         <input
-          className="mt-4 border-b-[1px] border-yellow-400  bg-[rgba(255,255,255,0)] placeholder:text-white text-white w-[25rem] outline-none mb-4"
+          className="mt-4 border-b-[1px] border-yellow-400  bg-[rgba(255,255,255,0)] placeholder:text-white  text-white  w-[15rem] lg:w-[25rem] outline-none mb-4"
           type="text"
           placeholder="Your wallet adress"
           required
         ></input>
         <input
           type="text"
-          className="mt-4 border-b-[1px] border-yellow-400 bg-[rgba(255,255,255,0)] placeholder:text-white text-white w-[25rem] outline-none mb-4"
+          className="mt-4 border-b-[1px] border-yellow-400 bg-[rgba(255,255,255,0)] placeholder:text-white text-white w-[15rem] lg:w-[25rem] outline-none mb-4"
           placeholder="Signature transaction ID(if you already deposit)"
           required
         ></input>
         <textarea
-          className=" text-left border-[1px]  border-yellow-400 bg-[rgba(255,255,255,0)] w-[25rem] placeholder:text-white text-white outline-none mb-4"
+          className=" text-left border-[1px]  border-yellow-400 bg-[rgba(255,255,255,0)]  w-[15rem] lg:w-[25rem] placeholder:text-white text-white outline-none mb-4"
           placeholder="If you have something to say,we are listening"
         ></textarea>
         <button
@@ -101,8 +107,10 @@ const FormDiscount = () => {
           !notification && "hidden"
         } left-[17.5rem] bottom-4 flex justify-center items-center rounded-2xl w-[15rem] bg-white h-[5rem]`}
       >
-        <h2 className="text-black font-semibold text-2xl">Form sent</h2>
-        <i className="text-4xl ml-4 text-green-400">
+        <h2 className="text-black font-semibold text-xl lg:text-2xl">
+          Form sent
+        </h2>
+        <i className="text-2xl lg:text-4xl lg:ml-4 text-green-400">
           <AiOutlineCheckCircle />
         </i>
       </div>

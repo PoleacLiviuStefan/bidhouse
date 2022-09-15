@@ -10,9 +10,9 @@ const FAQ = () => {
     >
       <Fade delay={400}>
         <div>
-          <div className="relative top-[1rem] bg-[url('/public/faq.png')]  rotate-[-12deg] bg-cover w-[12rem] h-[4.3rem]" />
+          <div className="relative top-[0rem] bg-[url('/public/faq.png')]  rotate-[-12deg] bg-cover w-[8rem] h-[3rem] lg:w-[12rem] lg:h-[4.3rem]" />
         </div>
-        <h1 className="text-white text-[3.5rem] font-bold">
+        <h1 className="text-white text-2xl lg:text-[3.5rem] font-bold">
           FREQUENTLY ASKED QUESTIONS
         </h1>
       </Fade>

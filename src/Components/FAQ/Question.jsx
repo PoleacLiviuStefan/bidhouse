@@ -14,10 +14,10 @@ const Question = ({ question, description }) => {
             : "animate-[retractanim_1s_ease-in-out_forwards]"
         }`}
       >
-        <h3 className="absolute top-4 text-2xl">{question}</h3>
+        <h3 className="absolute top-4 text-xl lg:text-2xl">{question}</h3>
 
         <h2
-          className={`absolute left-4 overflow-y-hidden text-xl px-4 text-[#1c1c1c] top-16`}
+          className={`absolute flex justify-center w-[15rem] lg:w-full lg:left-4 overflow-y-hidden text-xl px-4 text-[#1c1c1c] top-16`}
         >
           {description}
         </h2>
