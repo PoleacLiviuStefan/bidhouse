@@ -11,7 +11,7 @@ const WhatWeWant = () => {
       <div className="flex justify-center items-center w-full h-[30rem]">
         <Fade delay={300} left>
           {" "}
-          <h1 className="relative left-0 mr-2  w-[10rem] lg:w-[40rem] text-xl lg:text-4xl font-bold">
+          <h1 className="relative left-0 mr-2  w-[10rem] lg:w-[42rem] text-xl lg:text-4xl font-bold">
             OUR INTENTION WITH THE PROJECT?
           </h1>
         </Fade>

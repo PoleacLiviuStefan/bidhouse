@@ -62,14 +62,39 @@ font-bold"
           h-[30rem]
          text-[1.8rem]
           relative
-          left-[-25rem]
+          left-[-10rem]
          lg:left-[-55rem]
           top-[-4rem]
          font-bold"
         >
           <h2 className="titlephase">PHASE 2</h2>
-          <h3 className="subtitlephase ">The crypto forest</h3>
-          <span className="subtext">
+          <h3
+            className="  absolute
+  top-[6rem]
+  lg:top-[2rem]
+  w-[10rem]
+  lg:w-full
+  text-[#cbcbcb]
+      left-[-2.3rem]
+      lg:left-[0rem]
+  text-[1.3rem]
+  lg:text-[1.6rem]
+  "
+          >
+            The crypto forest
+          </h3>
+          <span
+            className="  absolute lg:left-[50%] w-[20rem] lg:w-[40rem]
+lg:translate-x-[-50%]
+lg:text-[1.3rem]
+text-sm
+  px-[1rem]
+ text-justify
+ w-[15rem]
+  lg:top-[5rem]
+  top-[12rem]
+  "
+          >
             <br /> Our goal is to build a place for our community. A place that
             they can call "home"
             <br /> For our crypto enthusiasts and even for tourists
